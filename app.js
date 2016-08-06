@@ -11,7 +11,7 @@ var main = function(){
 
 	function printTable(rates) {
 		for (var i = 0; i<rates.length; i++){
-			$('#exchange').append('<tr><td>' + rates[i].currency 
+			$('#exchange').append('<tr><td>' + (i+1) + '</td><td>' + rates[i].currency 
 				+ '</td><td>' + rates[i].ask + '</td></tr>')
 		}
 	};
